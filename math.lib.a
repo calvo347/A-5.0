@@ -1,0 +1,9 @@
+var1 = 155;
+var2 = 255;
+
+som = var1 + var2;
+sub = var1 - var2;
+mult = var1 * var2;
+div = var1 / var2;
+cent = 20 * var1;
+percent = cent / 100;
