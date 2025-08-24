@@ -1,0 +1,134 @@
+## 1. Data Types
+
+* **Integers**
+
+```c
+x = 42;
+```
+
+* **Strings** (use quotes `"`)
+
+```c
+name = "Caleb";
+```
+
+---
+
+## 2. Operators
+
+### Arithmetic
+
+```
++   addition
+-   subtraction
+*   multiplication
+/   integer division
+```
+
+### Comparison
+
+```
+==   equal
+!=   not equal
+<    less than
+<=   less than or equal
+>    greater than
+>=   greater than or equal
+```
+
+### Logical
+
+```
+&&   logical AND
+||   logical OR
+!    logical NOT
+```
+
+---
+
+## 3. Control Structures
+
+### Conditional `if`
+
+```c
+if (x > 10) {
+    print("greater than 10");
+} else {
+    print("less or equal to 10");
+}
+```
+
+### Loop `while`
+
+```c
+i = 0;
+while (i < 5) {
+    print(i);
+    i = i + 1;
+}
+```
+
+---
+
+## 4. Built-in Functions
+
+* **print(expr)** → prints values to the screen
+
+```c
+print("Hello world");
+print(123);
+```
+
+* **input()** → reads a string from user input
+
+```c
+name = input();
+print("Your name is:");
+print(name);
+```
+
+---
+
+## 5. Variables
+
+* No type declaration needed.
+* Variables are created when first assigned.
+
+```c
+age = 18;
+text = "test";
+```
+
+---
+
+## 6. Program Structure
+
+* Each statement must end with `;`.
+* Blocks are enclosed in `{ }`.
+* You can run the interpreter in **REPL mode** or pass a program file `.txt`.
+
+Example:
+
+```c
+// Program: factorial of 5
+n = 5;
+res = 1;
+while (n > 1) {
+    res = res * n;
+    n = n - 1;
+}
+print("Factorial:");
+print(res);
+```
+
+---
+
+## 7. Error Messages
+
+The interpreter shows **line and column numbers** for precise debugging:
+
+```
+[parse error] line3, col7: unexpected token
+```
+
+

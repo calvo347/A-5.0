@@ -1,0 +1,143 @@
+seed = 09876543212345678987654323456776543;
+seed2 = 1234567890987654323456789098765436;
+seed3 = 12345678909876543212457909876543212345789098765432123009876543212345678765432123456789876543212345678;
+w = 4;
+x = 3;
+y = 11;
+z = 347;
+
+seed = seed * w;
+seed = seed + x;
+seed = seed * y;
+seed = seed * z;
+
+w = 4;
+x = 3;
+y = 11;
+z = 347;
+
+seed = seed * w;
+seed = seed + x;
+seed = seed * y;
+seed = seed * z;
+
+w = 4;
+x = 3;
+y = 11;
+z = 347;
+
+seed = seed * w;
+seed = seed + x;
+seed = seed * y;
+seed = seed * z;
+
+w = 4;
+x = 3;
+y = 11;
+z = 347;
+
+seed = seed * w;
+seed = seed + x;
+seed = seed * y;
+seed = seed * z;
+
+w = 4;
+x = 3;
+y = 11;
+z = 347;
+
+seed = seed * w;
+seed = seed + x;
+seed = seed * y;
+seed = seed * z;
+
+
+
+rand = seed * seed;
+print(rand);
+randint = seed2 * seed;
+random = rand + randint;
+print(random);
+
+
+
+x = random;
+y = randint;
+c = random * randint;
+raio = 10 + c;
+raio = raio * raio;
+raio = raio * seed3;
+
+w = 4;
+x = 3;
+y = 11;
+z = 347;
+
+seed = seed * w;
+seed = seed + x;
+seed = seed * y;
+seed = seed * z;
+
+w = 4;
+x = 3;
+y = 11;
+z = 347;
+
+seed = seed * w;
+seed = seed + x;
+seed = seed * y;
+seed = seed * z;
+
+w = 4;
+x = 3;
+y = 11;
+z = 347;
+
+seed = seed * w;
+seed = seed + x;
+seed = seed * y;
+seed = seed * z;
+
+w = 4;
+x = 3;
+y = 11;
+z = 347;
+
+seed = seed * w;
+seed = seed + x;
+seed = seed * y;
+seed = seed * z;
+
+w = 4;
+x = 3;
+y = 11;
+z = 347;
+
+seed = seed * w;
+seed = seed + x;
+seed = seed * y;
+seed = seed * z;
+
+
+
+rand = seed * seed;
+print(rand);
+randint = seed2 * seed;
+random = rand + randint;
+print(random);
+
+
+
+x = random;
+y = randint;
+c = random * randint;
+raio = 10 + c;
+raio = raio * raio;
+raio = raio * seed3;
+print(raio);
+a = c + random;
+b = a + raio;
+c = b + rand;
+d = c + a;
+e = d * seed3;
+print(e);
